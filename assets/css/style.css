@@ -1,0 +1,86 @@
+/*======================================
+Theme Name: DG-Services Portfolio Plugin Theme
+Theme URI: https://dg-services.de
+Description: DG-Services Portfolio Plugin Theme
+Version: 1.0
+Author: Dominik Gerstner
+Author URI: https://dg-services.de
+======================================*/
+
+
+.container {
+    font-size:larger;
+    position: relative;
+}
+
+
+.portfoliocard {
+    /* Add shadows to create the "card" effect */
+        box-shadow: 3px 3px 18px 0 rgba(255, 255, 255, 0.8);
+        transition: 0.5s;
+        border-radius: 15px;
+        position: relative;
+}
+
+.portfoliotechnology {
+    display: flex;
+    z-index:2;
+    position: relative;
+}
+
+.portfoliotechnologyitem{
+    font-size: small;
+    text-align: center;
+    border-radius: 5px;
+    border: thin solid gray;
+    background-color: #fff;
+    transition: 0.3s;
+    position: relative;
+}
+
+.portfoliotechnologyitem:hover .portfoliotechnologyitem{
+    background-color: #4682b4;
+    color: #ffffff;
+}
+
+
+.portfolioimage{
+    z-index:1;   
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+    /* On mouse-over, add a deeper shadow */
+.portfoliocard:hover {
+    box-shadow: -4px -4px 18px 0 rgba(255, 255, 255, 0.5);
+}
+
+
+.portfoliotitle {
+    font-size: x-large;
+    text-align: center;
+    line-height: 1.0;
+    position: relative;  
+}
+
+
+.portfoliodetails{
+    font-size: medium;
+    text-align: center;
+    position: relative;
+}
+
+
+.wp-post-image {
+    margin: 0 auto;
+ }
+.w-128 {
+    width: 18rem;
+  }
+.h-196 {
+    height: 38rem;
+  }
